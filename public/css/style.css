@@ -4,8 +4,8 @@ body {
   padding-top: 50px; // same as header height
 }
 
-/*#projects .item img{
+#projects .item img{
   display: block;
   width: 100%;
   height: auto;
-}*/
+}
