@@ -1,6 +1,5 @@
 $(document).ready(function(){
-  $('.single-item').slick();
-  // $('.single-item').slick({
-  //   autoplay: true
-  // });
+  $('.single-item').slick({
+    autoplay: true
+  });
 });
