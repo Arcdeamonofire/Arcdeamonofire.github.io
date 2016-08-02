@@ -8,7 +8,7 @@ nav {
   height:20px;
   text-align: center;
   position: fixed;
-  background: white;
+  background: #F0F0F0;
   width:100%;
   top:0;
   transition: top 0.2s ease-in-out;
