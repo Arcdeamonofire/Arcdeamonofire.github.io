@@ -1,5 +1,5 @@
-$(document).ready(function(){
-  $('.single-item').slick({
-    autoplay: true
-  });
+$(document).ready(function() {
+
+  $("#projects").owlCarousel();
+
 });
