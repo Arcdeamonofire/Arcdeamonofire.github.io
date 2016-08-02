@@ -9,3 +9,7 @@ body {
   width: 100%;
   height: auto;
 }
+
+#accent {
+  color: #318ba2;
+}
