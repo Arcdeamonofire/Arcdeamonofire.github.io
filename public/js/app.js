@@ -4,7 +4,7 @@ app.config(['$routeProvider', '$locationProvider', function($routeProvider, $loc
 	$locationProvider.html5Mode({enabled:true});
 
   $routeProvider.when('/', {
-		templateUrl: '/public/partials/home.html'
+		templateUrl: 'public/partials/home.html'
 	})
 
 }]);
