@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('.projects').slick({
+  $('.single-item').slick({
     autoplay: true
   });
 });
