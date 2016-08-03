@@ -2,13 +2,13 @@
 <html>
 <!-- ng-app="PortfolioApp" -->
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - Samuel Weisse</title>
     <link rel="stylesheet" href="public/css/normalize.css" charset="utf-8">
     <link rel="stylesheet" href="public/css/skeleton.css" charset="utf-8">
     <link rel="stylesheet" href="public/owl-carousel/owl.carousel.css">
     <link rel="stylesheet" href="public/owl-carousel/owl.theme.css">
-
+    <link rel="stylesheet" href="public/css/font-awesome-4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="public/css/style.css" charset="utf-8">
     <link rel="stylesheet" href="public/css/navbar.css" charset="utf-8">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
@@ -23,20 +23,28 @@
   <body>
 
     <nav>
-      <div > <img src="public/img/logo3.jpg" alt="logo" id="logo"/></div>
+      <div > <h3 id="logo">Samuel Weisse</h3></div>
       <ul>
-        <li><a href="/">ABOUT</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#projects">PROJECTS</a></li>
         <!-- <li><a href="/contact">CONTACT</a></li> -->
-        <li><a href="https://github.com/Arcdeamonofire">WORK</a></li>
+        <li><a href="https://github.com/Arcdeamonofire">GITHUB</a></li>
       </ul>
     </nav>
 
-    <h3>This site is currently under construction, please check back soon!</h3>
-    <div class="row">
+  <div id="body">
+    <!-- <h3>This site is currently under construction, please check back soon!</h3> -->
+    <br>
+    <div class="row inside" id="about">
       <img src="public/img/thumbnail.png" alt="thumbnail" id="me" class="one-third column"/>
       <div class="two-thirds column">
         <h1 ><span id="accent">Hello.</span> My name is Sam.</h1>
         <p id="brand">I am an addicted problem solver, enthusiastic about the creative process and the actualization of client dreams. I seek out each challenge with relish and thrive on the development process to bring a project from idea to completion. I take a holistic approach to my work and strive to be a strong link in the team dynamic.</p>
+
+        <p>I'm still finding my place within the world of programming and code, but I have an affinity for backend work and working with the transfer of data from the backend structure to the frontend framework.</p>
+        <p>The project I have most enjoyed working on thus far was a MEAN stack App for Magic: The Gathering. A classmate and I built a <a href="https://magicdeckbuilder.herokuapp.com/">deck builder</a>. It was an exciting project as I got to focus on setting up and maintaining a good clean database and server and figuring out how to serve all our data to our Angular.js framework we were using. It was challenging at times. One challenge was deciding when I should be calling up information from the Json file we had recieved from the Magic: The Gathering Database through an API AJAX request and when to use the information stored in our database and when to switch between the two.</p>
+
+        <p>Two other frameworks that interest me are Ruby on Rails and Wordpress. I plan to experiment heavily with these frameworks once I have completed the WDI course on Aug. 16.</p>
       </div>
     </div>
 
@@ -47,7 +55,7 @@
        <h3><a href="Resume.pdf" target="_blank" class="button">My Resume</a></h3>
      </div>
 
-     <h3>Current: Web Development Immersive with General Assembly</h3>
+     <h3>Web Development Immersive with General Assembly</h3>
      <p>
        Full­stack web development program focused on common best practices in
        object­-oriented programming, MVC frameworks, data modeling, and
@@ -55,8 +63,8 @@
        and collaboratively focused projects.
      </p>
      <p>
-       Languages: HTML5/CSS3, Javascript(Jquery), Ruby, MySQL, PostgresSQL, PHP
-       Frameworks: Node.js(express, MEAN stack), Ruby on Rails, Wordpress
+       Languages: HTML5/CSS3, Javascript(Jquery), Ruby, MySQL, PostgresSQL, PHP <br>
+       Frameworks: Node.js(express, MEAN stack), Ruby on Rails, Wordpress <br>
        General experience with single page MEAN stack app design and API utilization.
      </p>
      <p>
@@ -69,13 +77,25 @@
     </div>
 
 
-    <div>
+    <div id="Contact">
+      <h2>Contact Me!</h2>
        <p>
          If you are interested in looking at any of my other work or in
          specific code for these projects please feel to check out my
          <a href="https://github.com/Arcdeamonofire">Github</a>!
        </p>
+       <p>Or email me at: <a href="mailto:samuel.weisse@gmail.com">samuel.weisse@gmail.com</a></p>
+       <div class="icons">
+         <a href="https://www.linkedin.com/in/samuelweisse"><i class="fa fa-linkedin-square fa-3x" aria-hidden="true"></i></a>
+         <a href="https://github.com/Arcdeamonofire"><i class="fa fa-github fa-3x" aria-hidden="true"></i></a>
+         <a href="mailto:samuel.weisse@gmail.com"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a>
+       </div>
     </div>
+
+    <div class="learnings">
+
+    </div>
+  </div>
 
     <!-- <main ng-view></main> -->
   </body>

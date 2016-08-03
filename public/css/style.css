@@ -1,7 +1,10 @@
 body {
   background: #F0F0F0;
   color: black;
-  padding-top: 5em;
+}
+
+#body {
+  padding: 5em;
 }
 
 #projects .item img{
@@ -12,4 +15,33 @@ body {
 
 #accent {
   color: #318ba2;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+.icons{
+  display:inline-block;;
+  width: 100%;
+  text-align: center;
+}
+
+#me {
+  max-width: 100%;
+  height: auto;
+  border-radius: 100%;
+  box-sizing: border-box;
+}
+
+hr {
+  border-color:black;
+}
+
+a{
+  color:#318ba2;
 }
