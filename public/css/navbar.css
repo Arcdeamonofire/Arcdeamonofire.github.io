@@ -1,3 +1,9 @@
+@media (min-width: 700px){
+  nav ul li:hover {
+    cursor: pointer;
+    padding-top: 1em;
+  }
+}
 * {
   font-family: 'Open Sans', sans-serif;
   margin: 0;
@@ -5,6 +11,7 @@
 }
 
 nav {
+  min-width: 450px;
   height:20px;
   text-align: center;
   position: fixed;
