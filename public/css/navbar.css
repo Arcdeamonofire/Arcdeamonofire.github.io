@@ -1,8 +1,9 @@
 @media (min-width: 700px){
-  nav ul li:hover {
-    cursor: pointer;
-    padding-top: 1em;
+  nav ul li {
+    display: none;
   }
+
+
 }
 * {
   font-family: 'Open Sans', sans-serif;
