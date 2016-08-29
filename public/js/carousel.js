@@ -1,10 +1,10 @@
 $(document).ready(function() {
 
   $("#projects").owlCarousel({
-      autoPlay: true,
+      autoPlay: false,
       navigation : true, // Show next and prev buttons
-      slideSpeed : 300,
-      paginationSpeed : 400,
+      // slideSpeed : 300,
+      // paginationSpeed : 400,
       singleItem:true
 
       // "singleItem:true" is a shortcut for:
